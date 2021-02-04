@@ -1,0 +1,45 @@
+.order-box {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  border-radius: 16px;
+  text-align: start;
+  position: relative;
+  margin-left: 10px;
+}
+.order-box--skin-primary {
+  background: orange;
+}
+
+.order-box--skin-secondary {
+  background: green;
+}
+hr {
+  opacity: 0.5;
+  margin: 1rem 0;
+}
+.order-box hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+.order-box span {
+  text-transform: capitalize;
+  border: 1px solid #ccc;
+  margin: 4px 8px;
+  padding: 5px;
+  border-radius: 10px;
+  background: #fff3cb;
+  display: inline-block;
+}
+
+.order-box button {
+  padding: 10px;
+  background: #4caf50 !important;
+  border: none;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+}
